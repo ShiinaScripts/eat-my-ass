@@ -1,0 +1,293 @@
+version: 3
+profiles: []
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  telnet-profile-selector: []
+  restart-telnet-session: []
+  ssh-profile-selector: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - Ctrl-Shift-N
+  new-tab:
+    - Ctrl-Shift-T
+  profile: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-E
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-T
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Tokyo Night
+    foreground: '#fefefe'
+    background: '#344055'
+    cursor: '#fefefe'
+    colors:
+      - '#32344a'
+      - '#f7768e'
+      - '#9ece6a'
+      - '#e0af68'
+      - '#7aa2f7'
+      - '#ad8ee6'
+      - '#449dab'
+      - '#787c99'
+      - '#ad8ee6'
+      - '#ff7a93'
+      - '#b9f27c'
+      - '#ff7e31'
+      - '#bb9af7'
+      - '#0db9d7'
+      - '#acb0d0'
+      - '#ffffff'
+  bell: visual
+  rightClick: menu
+  pasteOnMiddleClick: true
+  font: JetBrainsMono NF
+  profile: local:powershell
+  hideTabIndex: true
+  hideCloseButton: true
+  customColorSchemes:
+    - name: Tokyo Night
+      foreground: '#fefefe'
+      background: '#344055'
+      cursor: '#fefefe'
+      colors:
+        - '#32344a'
+        - '#f7768e'
+        - '#9ece6a'
+        - '#e0af68'
+        - '#7aa2f7'
+        - '#ad8ee6'
+        - '#449dab'
+        - '#787c99'
+        - '#ad8ee6'
+        - '#ff7a93'
+        - '#b9f27c'
+        - '#ff7e31'
+        - '#bb9af7'
+        - '#0db9d7'
+        - '#acb0d0'
+        - '#ffffff'
+  background: colorScheme
+  fallbackFont: JetBrains Mono
+  cursor: beam
+ssh: {}
+configSync:
+  parts: {}
+appearance:
+  vibrancyType: fluent
+  vibrancy: false
+  flexTabs: true
+  css: >
+    app-root.platform-win32 {
+
+    border: none;
+
+    }
+
+
+    .content.tabs-on-top .tab-bar tab-header.active {
+
+    border: 1px solid #111 !important;
+
+    border-bottom-color: #111;
+
+    border-top: 1px solid #111;
+
+    }
+
+
+    button[_ngcontent-jee-c4] {
+
+    width: 35px !important;
+
+    }
+
+    window-controls svg {
+
+    display: none !important;
+
+    }
+
+
+
+    .tab-bar{
+
+    background-color: #344055;
+
+    }
+
+
+    .btn-close {
+
+    background:
+    url(https://cdn.discordapp.com/attachments/809859674547421214/829083433866493974/close.png)
+    !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: 15px !important;
+    }
+
+    .btn-minimize {
+        display: inherit !important;
+        background: url(https://cdn.discordapp.com/attachments/809859674547421214/829083542930980954/minimize.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: 15px !important;
+    }
+
+
+    .btn-maximize{
+        display: inherit !important;
+        background: url(https://cdn.discordapp.com/attachments/809859674547421214/829083540778909766/Maximize_.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: 15px !important;
+    }
+enableWelcomeTab: false
+titleControl:
+  replacePattern: VoHiYo
+  prefix: ''
+pluginBlacklist:
+  - altair
+  - relaxed-theme
+recentProfiles:
+  - id: local:powershell
+    type: local
+    name: PowerShell
+    icon: >-
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+      class="svg-inline--fa fa-terminal fa-w-20 fa-2x" data-icon="terminal"
+      data-prefix="fas" focusable="false" role="img" viewBox="0 0 640 512"><path
+      fill="#0ff" stroke="none" stroke-width="1" d="M257.981 272.971L63.638
+      467.314c-9.373 9.373-24.569 9.373-33.941 0L7.029
+      444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99
+      101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373
+      24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0
+      33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24 10.745-24
+      24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745
+      24-24z"></path></svg>
+    options:
+      command: powershell.exe
+      args:
+        - '-nologo'
+      env:
+        TERM: cygwin
+    isBuiltin: true
+electronFlags:
+  - - force_discrete_gpu
+    - '0'

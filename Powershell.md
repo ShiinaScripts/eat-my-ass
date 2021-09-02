@@ -38,7 +38,7 @@ Gives you a cooler Dir with icons and some configuration options.
 ```
 Scoop install lsd
 ```
-Examples
+Examples  
 ![image](https://raw.githubusercontent.com/Peltoche/lsd/assets/screen_lsd.png)
 
 ![img](https://cdn.discordapp.com/attachments/355718799556870144/883090444597215262/unknown.png)
@@ -60,3 +60,8 @@ function la {
   }
 }
 ```
+
+## Cool finished product kinda?
+Using [Tabby](https://github.com/Eugeny/tabby) wow very cool. Other things included maybe I'm lazy now.  
+
+![img](pics/asseater9000.png)
