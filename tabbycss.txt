@@ -1,0 +1,43 @@
+app-root.platform-win32 {
+border: none;
+}
+
+.content.tabs-on-top .tab-bar tab-header.active {
+border: 1px solid #111 !important;
+border-bottom-color: #111;
+border-top: 1px solid #111;
+}
+
+button[_ngcontent-jee-c4] {
+width: 35px !important;
+}
+window-controls svg {
+display: none !important;
+}
+
+
+.tab-bar{
+background-color: #344055;
+}
+
+.btn-close {
+background: url(https://cdn.discordapp.com/attachments/809859674547421214/829083433866493974/close.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 15px !important;
+}
+.btn-minimize {
+    display: inherit !important;
+    background: url(https://cdn.discordapp.com/attachments/809859674547421214/829083542930980954/minimize.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 15px !important;
+}
+
+.btn-maximize{
+    display: inherit !important;
+    background: url(https://cdn.discordapp.com/attachments/809859674547421214/829083540778909766/Maximize_.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 15px !important;
+}
